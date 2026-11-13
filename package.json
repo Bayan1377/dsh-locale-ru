@@ -1,6 +1,6 @@
 {
   "name": "@bayan1377/dsh-locale-ru",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Russian (ru) language pack for the DeepSeek Harness web GUI: full interface translation, Russian system fonts and the ru-RU locale selected on load",
   "type": "module",
   "main": "lib/index.js",
@@ -43,6 +43,14 @@
     "ru-RU",
     "translation"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bayan1377/dsh-locale-ru.git"
+  },
+  "homepage": "https://github.com/Bayan1377/dsh-locale-ru#readme",
+  "bugs": {
+    "url": "https://github.com/Bayan1377/dsh-locale-ru/issues"
+  },
   "author": "bayan1377",
   "license": "MIT"
 }
