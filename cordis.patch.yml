@@ -1,0 +1,9 @@
+# dsh bundle patch: installs the Russian language pack and selects it.
+# Kept in the package so a profile patch rewrite cannot drop it.
+- insert:
+    - id: locale-ru
+      name: '@bayan1377/dsh-locale-ru'
+- id: locale
+  name: '@deepseek-ai/dsh-client-locale'
+  config:
+    preference: ru-RU
